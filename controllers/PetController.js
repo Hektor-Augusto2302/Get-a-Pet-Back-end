@@ -1,7 +1,6 @@
 const Pet = require("../models/Pet");
 const getToken = require("../helpers/get-token");
 const getUserByToken = require("../helpers/get-user-by-token");
-const { eventNames } = require("../models/User");
 const ObjectId = require("mongoose").Types.ObjectId;
 
 module.exports = class PetController {
